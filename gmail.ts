@@ -1,5 +1,5 @@
 import { eq } from "drizzle-orm";
-import { getDb, getRuntimeEnv } from "../db";
+import { getDb, getRuntimeEnv } from "./db";
 import { settings } from "./db/schema";
 
 const SENDER_EMAIL="robnorris125@gmail.com";
