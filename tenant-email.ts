@@ -1,6 +1,6 @@
 import { and, eq } from "drizzle-orm";
-import { getDb, getRuntimeEnv } from "../db";
-import { communicationMessages, emailConnections } from "../db/schema";
+import { getDb, getRuntimeEnv } from "./db";
+import { communicationMessages, emailConnections } from "./db/schema";
 import { gmailStatus, platformGoogleCredentials } from "./gmail";
 import { assertTenantMembership, ensureTenantForRequest } from "./tenant";
 
