@@ -1,6 +1,6 @@
 import { and, eq } from "drizzle-orm";
-import { getDb } from "../db";
-import { tenantMemberships } from "../db/schema";
+import { getDb } from "./db";
+import { tenantMemberships } from "./db/schema";
 import { requireSupabaseUser } from "./supabase/server";
 
 export type TenantContext={tenantId:string;userEmail:string;role:string};
